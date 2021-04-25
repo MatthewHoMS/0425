@@ -1,5 +1,6 @@
 # python20210425
-information security camp
+leap or ordinary
+~~~python
 from pwn import *
 
 r = remote('140.110.112.22', 2402)
@@ -22,3 +23,4 @@ for i in range(1,101):
 		r.sendline(b'ordinary')
 
 r.interactive()
+~~~
